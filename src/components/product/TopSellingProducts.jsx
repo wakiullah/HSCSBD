@@ -19,7 +19,7 @@ function Products() {
                 'Certificate included',
                 'Beginner friendly'
             ],
-            icon: '🎬'
+            icon: '🎥'
         },
         {
             id: 2,
@@ -36,7 +36,12 @@ function Products() {
                 'Cloud storage',
                 'Regular updates'
             ],
-            icon: '✨'
+            icon: (
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <rect width="24" height="24" rx="6" fill="#00D96E" />
+                    <path d="M7 16.5L17 7.5M7 7.5L17 16.5" stroke="white" strokeWidth="2" strokeLinecap="round" />
+                </svg>
+            )
         },
         {
             id: 3,
