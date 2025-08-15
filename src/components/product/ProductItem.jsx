@@ -11,9 +11,7 @@ function ProductItem(props) {
             <div className="flex justify-left mb-4">
                 <span className="text-5xl text-cyan-600 dark:text-cyan-400">{icon}</span>
             </div>
-            {/* Title */}
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{title}</h2>
-            {/* Subtitle */}
             <p className="text-base text-gray-600 dark:text-gray-300 mb-4">{subtitle}</p>
             {/* Price */}
             <div className="text-cyan-700 dark:text-cyan-400 text-4xl font-bold mb-1">{price}</div>
