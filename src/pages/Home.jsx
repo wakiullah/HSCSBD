@@ -1,5 +1,7 @@
+import Footer from '@/components/footer'
 import Hero from '@/components/Hero'
-import Products from '@/components/product/Products'
+import AllProducts from '@/components/product/AllProducts'
+import Products from '@/components/product/TopSellingProducts'
 import React from 'react'
 
 function Home() {
@@ -7,6 +9,8 @@ function Home() {
         <>
             <Hero />
             <Products />
+            <AllProducts />
+            <Footer />
         </>
     )
 }
